@@ -1,0 +1,146 @@
+.pull-right {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	padding-top: 14px;
+}
+.pull-right p{
+	margin-left: 5px;
+}
+
+.content{
+  max-width: 1280px;
+  margin: 0 60px;
+  overflow: hidden;
+}
+
+/*LK*/
+.img_lk{
+	width: 270px;
+    height: 326px;
+}
+.lk_menu{
+	padding: 5px;
+	margin-right: 70px;
+	width: 350px;
+}
+.lk_item{
+	background-color: rgba(14, 15, 35, 0.85);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.lk_item li {
+	margin: 10px;
+}
+.lk_item a{
+	color: #fff;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+}
+.info_block{
+	border-top:  4px solid #950303;
+}
+.info_block_tab{
+	color: #fff;
+	background: #950303;
+	border-radius: 20px 20px 0px 0px;
+	width: 240px;
+	text-align: center;
+	margin-bottom: 0;
+}
+/* fix = code from bootstrap 3 */
+tbody.collapse.in {
+  display: table-row-group;
+}
+
+.lb_lk{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.btn_style{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.wrap_btn{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+}
+.main{
+	margin-bottom: 40px;
+}
+
+/*Table*/
+.table>tbody>tr.active>td,
+.table>tbody>tr.active>th,
+.table>tbody>tr>td.active,
+.table>tbody>tr>th.active,
+.table>tfoot>tr.active>td,
+.table>tfoot>tr.active>th,
+.table>tfoot>tr>td.active,
+.table>tfoot>tr>th.active,
+.table>thead>tr.active>td,
+.table>thead>tr.active>th,
+.table>thead>tr>td.active,
+.table>thead>tr>th.active {
+  background-color: #cacaca;
+}
+
+.table-bordered > tbody > tr > td,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > thead > tr > th {
+  border-color: #e4e5e7;
+}
+
+.table tr.header {
+  font-weight: bold;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+  /* Likely future */
+}
+
+.work_f tr:not(.header) {
+  display: none;
+}
+
+.inp_teach{
+	width: 100%;
+}
+
+/*datepicker*/
+label{
+	margin-left: 20px;
+}
+#datepicker{
+	width:100px; 
+	margin: 0 10px 10px 10px;
+}
+#datepicker > span:hover{
+	cursor: pointer;
+}
+.number_input{
+	width: 130px;
+}
+.ui-datepicker-trigger{
+	height: 26px;
+}
+
+.insert_date{
+	padding-bottom: 20px;
+}
